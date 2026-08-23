@@ -1,0 +1,15 @@
+.challenge-cta {
+  margin: 1.25rem 0 0.5rem;
+  padding: 1.1rem 1.25rem 1.25rem;
+  border: 1px solid var(--md-primary-fg-color--light, #7e56c2);
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, var(--md-default-bg-color));
+}
+
+.challenge-cta p {
+  margin-top: 0;
+}
+
+.challenge-cta .md-button {
+  margin: 0.75rem 0 0;
+}

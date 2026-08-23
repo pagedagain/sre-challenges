@@ -2,21 +2,26 @@
 
 > A collection of deterministic, real-world production incidents and runbooks.
 
-Welcome to the public challenge repository for [Paged Again](https://pagedagain.com). 
+Welcome to the public challenge repository for [Paged Again](https://pagedagain.com).
 
-This repository contains practical troubleshooting scenarios based on real outages, designed specifically for Site Reliability Engineers (SREs), DevOps professionals, and Backend Engineers.
+This repository contains practical troubleshooting scenarios based on real outages, written for Site Reliability Engineers (SREs), DevOps, and backend engineers. Each challenge is published on its own after it is live on Paged Again. This is not a dump of the private sandbox repo.
 
-## Read the Runbooks
-You can browse the formatted knowledge base and challenge catalogue here:
-[https://pagedagain.github.io/sre-challenges](https://pagedagain.github.io/sre-challenges)
+## Read the runbooks
 
-## Practice Live
-Every challenge in this repository can be practiced in a live, sandboxed Linux terminal environment on [Paged Again](https://pagedagain.com). We provide isolated containers with broken configurations for you to debug safely.
+Browse the catalogue: [https://challenges.pagedagain.com](https://challenges.pagedagain.com)
 
-## Repository Setup
-- The documentation is built using MkDocs.
-- To view the content locally, you can run `pip install -r requirements.txt` followed by `mkdocs serve`.
-- All challenge content lives in the `/docs` directory.
+## Practice live
+
+Every challenge can be practiced in a sandboxed Linux terminal on [Paged Again](https://pagedagain.com). Isolated containers ship with broken configurations for you to debug safely.
+
+## Local preview
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Challenge pages live under `docs/`. Licensed under [MIT](LICENSE).
 
 ---
 *Maintained by the Paged Again team.*
