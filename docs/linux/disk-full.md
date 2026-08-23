@@ -19,8 +19,8 @@ A runaway process dumped large junk files somewhere under `/var/log`. Find that 
 > Note: On shared container hosts, `df -h /` may still look fine. Use `du` to find what is actually consuming space under `/var/log`.
 
 ### Objectives
-- [ ] Find and reclaim the runaway log bloat under `/var/log` (remove that directory, or bring it under 50MB)
-- [ ] Keep `/var/log/important-service.log` intact
+- Find and reclaim the runaway log bloat under `/var/log` (remove that directory, or bring it under 50MB)
+- Keep `/var/log/important-service.log` intact
 
 ---
 
@@ -30,7 +30,7 @@ A runaway process dumped large junk files somewhere under `/var/log`. Find that 
 
 **Difficulty:** Easy (100) | **Estimated Time:** 15 minutes | **Focus:** `linux`, `disk`
 
-[Launch Challenge on Paged Again](https://pagedagain.com/incidents/linux/disk-full)
+[Launch Challenge on Paged Again](https://pagedagain.com/incidents/disk-full)
 
 ---
 
