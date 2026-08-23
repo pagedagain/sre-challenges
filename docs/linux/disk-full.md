@@ -1,7 +1,11 @@
 ---
-title: Disk Full Emergency
-description: A real-world production incident involving linux.
-tags: [linux, disk, df, du]
+title: "Disk Full Emergency"
+description: "Your monitoring alerts fired at 3 AM: the app cannot rotate logs and is throwing \"No space left on device\" for its log volume path. SSH still works."
+tags:
+  - "linux"
+  - "disk"
+  - "df"
+  - "du"
 ---
 
 # Disk Full Emergency
@@ -19,6 +23,7 @@ A runaway process dumped large junk files somewhere under `/var/log`. Find that 
 > Note: On shared container hosts, `df -h /` may still look fine. Use `du` to find what is actually consuming space under `/var/log`.
 
 ### Objectives
+
 - Find and reclaim the runaway log bloat under `/var/log` (remove that directory, or bring it under 50MB)
 - Keep `/var/log/important-service.log` intact
 
@@ -26,11 +31,15 @@ A runaway process dumped large junk files somewhere under `/var/log`. Find that 
 
 ## Interactive Sandbox
 
-> **Before reading the solution, you can reproduce and solve this incident in a sandboxed terminal.**
+<div class="challenge-cta" markdown>
 
-**Difficulty:** Easy (100) | **Estimated Time:** 15 minutes | **Focus:** `linux`, `disk`
+Try this in a live terminal before you open the solution.
 
-[Launch Challenge on Paged Again](https://pagedagain.com/incidents/disk-full)
+**Catalogue ID:** PA-001 | **Difficulty:** Easy (100) | **Estimated Time:** 15 minutes | **Focus:** `linux`, `disk`
+
+[Launch challenge on Paged Again](https://pagedagain.com/incidents/disk-full){ .md-button .md-button--primary }
+
+</div>
 
 ---
 
@@ -80,3 +89,24 @@ Disk incidents are not always "df shows 100%". On large shared volumes, a single
     test -f /var/log/important-service.log && echo "important log ok"
     ```
 
+---
+
+## Learning Points
+
+- `df` shows filesystem totals; `du` finds what is using space in a path
+- Clean the bloat path; do not blindly `rm -rf /var/log`
+- Preserve known-critical files during cleanup
+
+---
+
+## Best Practices
+
+- Alert on path-level growth for app log dirs, not only root df %
+- Log rotation and retention policies
+- Separate volumes for app logs when possible
+
+---
+
+## References
+
+- `man df`, `man du`

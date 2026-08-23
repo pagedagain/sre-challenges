@@ -1,6 +1,8 @@
 site_name: Paged Again Challenges
 site_description: Real-world SRE and Linux production incidents.
 site_url: https://challenges.pagedagain.com
+repo_url: https://github.com/pagedagain/sre-challenges
+repo_name: pagedagain/sre-challenges
 theme:
   name: material
   palette:
@@ -16,7 +18,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+plugins:
+  - search
+  - tags
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
