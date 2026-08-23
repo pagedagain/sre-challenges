@@ -4,3 +4,10 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Local house rules. Do not publish.
+CONTRIBUTING.md
+AGENTS.md
+.cursor/
+.github/pull_request_template.md
+
