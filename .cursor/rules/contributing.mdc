@@ -1,0 +1,18 @@
+---
+description: Public-repo voice and PR quality for sre-challenges
+alwaysApply: true
+---
+
+# Public catalogue
+
+This GitHub repo is public. Treat every commit, PR, and comment as customer-facing.
+
+Read `CONTRIBUTING.md` and follow it. In short:
+
+- Write like an SRE runbook. Short, specific, no emoji.
+- Ban brochure/AI filler (robust, seamless, leverage, delve, unlock, "let's dive in", "this PR introduces").
+- One concern per PR. No drive-by refactors or extra plugins.
+- Challenge pages keep the `.challenge-cta` launch button. No screenshots, badges, or floating marketing bars unless asked.
+- Never add Co-authored-by AI, "made with" banners, or emoji in commit subjects.
+
+If generated copy sounds like a changelog written by a bot, rewrite it before finishing.

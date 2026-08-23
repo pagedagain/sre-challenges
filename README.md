@@ -21,7 +21,7 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-Challenge pages live under `docs/`. Licensed under [MIT](LICENSE).
+Challenge pages live under `docs/`. Licensed under [MIT](LICENSE). See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR.
 
 ---
 *Maintained by the Paged Again team.*
