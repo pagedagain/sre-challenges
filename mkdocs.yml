@@ -5,6 +5,7 @@ repo_url: https://github.com/pagedagain/sre-challenges
 repo_name: pagedagain/sre-challenges
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"

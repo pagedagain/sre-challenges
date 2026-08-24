@@ -37,7 +37,7 @@ Try this in a live terminal before you open the solution.
 
 **Catalogue ID:** PA-001 | **Difficulty:** Easy (100) | **Estimated Time:** 15 minutes | **Focus:** `linux`, `disk`
 
-[Launch challenge on Paged Again](https://pagedagain.com/incidents/disk-full){ .md-button .md-button--primary }
+[Launch challenge on Paged Again](https://pagedagain.com/incidents/disk-full?utm_source=challenges&utm_medium=writeup&utm_campaign=disk-full){ .md-button .md-button--primary }
 
 </div>
 
