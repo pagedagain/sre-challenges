@@ -107,3 +107,7 @@ Config renames in a deploy often land in YAML first. A helper that swallows the 
 ## References
 
 - https://docs.python.org/3/tutorial/errors.html#exception-chaining
+
+---
+
+<a class="star-cta" href="https://github.com/pagedagain/sre-challenges">Found this useful? <span class="star-cta-link">⭐ Star the repo</span> to help others discover it</a>

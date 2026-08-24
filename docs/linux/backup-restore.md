@@ -107,3 +107,7 @@ A backup you have not listed and checksummed is not a restore source. Nightly jo
 
 - https://man7.org/linux/man-pages/man1/tar.1.html
 - https://man7.org/linux/man-pages/man1/sha256sum.1.html
+
+---
+
+<a class="star-cta" href="https://github.com/pagedagain/sre-challenges">Found this useful? <span class="star-cta-link">⭐ Star the repo</span> to help others discover it</a>
