@@ -96,3 +96,7 @@ Log analysis is a core SRE skill during security incidents, capacity events, and
 ## References
 
 - nginx log format documentation
+
+---
+
+<a class="star-cta" href="https://github.com/pagedagain/sre-challenges">Found this useful? <span class="star-cta-link">⭐ Star the repo</span> to help others discover it</a>

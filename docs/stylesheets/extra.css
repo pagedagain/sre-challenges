@@ -13,3 +13,29 @@
 .challenge-cta .md-button {
   margin: 0.75rem 0 0;
 }
+
+.md-typeset a.star-cta {
+  display: block;
+  margin: 2rem 0 0.75rem;
+  padding: 0.85rem 1.15rem;
+  border: 1px dashed color-mix(in srgb, #c9a227 65%, var(--md-default-fg-color));
+  border-radius: 0.5rem;
+  text-align: center;
+  background: color-mix(in srgb, #c9a227 10%, var(--md-default-bg-color));
+  color: inherit;
+  text-decoration: none;
+}
+
+.md-typeset a.star-cta .star-cta-link {
+  font-weight: 600;
+  color: var(--md-typeset-a-color);
+}
+
+.md-typeset a.star-cta:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md-typeset a.star-cta:hover .star-cta-link {
+  text-decoration: underline;
+}

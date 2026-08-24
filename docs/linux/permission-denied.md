@@ -35,7 +35,7 @@ Try this in a live terminal before you open the solution.
 
 **Catalogue ID:** PA-005 | **Difficulty:** Easy (100) | **Estimated Time:** 15 minutes | **Focus:** `linux`, `permissions`
 
-[Launch challenge on Paged Again](https://pagedagain.com/incidents/permission-denied?utm_source=challenges&utm_medium=writeup&utm_campaign=config-keyerror){ .md-button .md-button--primary }
+[Launch challenge on Paged Again](https://pagedagain.com/incidents/permission-denied?utm_source=challenges&utm_medium=writeup&utm_campaign=permission-denied){ .md-button .md-button--primary }
 
 </div>
 
@@ -108,3 +108,7 @@ Cleanup and log-rotate jobs often run as a different user than the service. A re
 
 - https://man7.org/linux/man-pages/man1/chmod.1.html
 - https://man7.org/linux/man-pages/man1/chown.1.html
+
+---
+
+<a class="star-cta" href="https://github.com/pagedagain/sre-challenges">Found this useful? <span class="star-cta-link">⭐ Star the repo</span> to help others discover it</a>

@@ -104,3 +104,7 @@ Silent logs after a deploy are usually more than one mistake. A leftover `CRITIC
 ## References
 
 - https://docs.python.org/3/library/logging.html#logging.basicConfig
+
+---
+
+<a class="star-cta" href="https://github.com/pagedagain/sre-challenges">Found this useful? <span class="star-cta-link">⭐ Star the repo</span> to help others discover it</a>

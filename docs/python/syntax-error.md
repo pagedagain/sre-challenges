@@ -101,3 +101,7 @@ Syntax errors slip through when linting is skipped on hotfix branches. Always ve
 ## References
 
 - Python IndentationError documentation
+
+---
+
+<a class="star-cta" href="https://github.com/pagedagain/sre-challenges">Found this useful? <span class="star-cta-link">⭐ Star the repo</span> to help others discover it</a>

@@ -110,3 +110,7 @@ Disk incidents are not always "df shows 100%". On large shared volumes, a single
 ## References
 
 - `man df`, `man du`
+
+---
+
+<a class="star-cta" href="https://github.com/pagedagain/sre-challenges">Found this useful? <span class="star-cta-link">⭐ Star the repo</span> to help others discover it</a>

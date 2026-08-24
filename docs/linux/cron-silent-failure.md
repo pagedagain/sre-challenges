@@ -118,3 +118,7 @@ Cron does not load `.bashrc` or a login profile. It starts with a stripped envir
 
 - https://man7.org/linux/man-pages/man5/crontab.5.html
 - https://man7.org/linux/man-pages/man1/env.1.html
+
+---
+
+<a class="star-cta" href="https://github.com/pagedagain/sre-challenges">Found this useful? <span class="star-cta-link">⭐ Star the repo</span> to help others discover it</a>

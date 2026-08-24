@@ -110,3 +110,7 @@ Failed deploys often leave the previous process on the port. Killing the PID is 
 
 - https://man7.org/linux/man-pages/man8/ss.8.html
 - https://man7.org/linux/man-pages/man8/lsof.8.html
+
+---
+
+<a class="star-cta" href="https://github.com/pagedagain/sre-challenges">Found this useful? <span class="star-cta-link">⭐ Star the repo</span> to help others discover it</a>
