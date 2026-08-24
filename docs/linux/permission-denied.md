@@ -35,7 +35,7 @@ Try this in a live terminal before you open the solution.
 
 **Catalogue ID:** PA-005 | **Difficulty:** Easy (100) | **Estimated Time:** 15 minutes | **Focus:** `linux`, `permissions`
 
-[Launch challenge on Paged Again](https://pagedagain.com/incidents/permission-denied){ .md-button .md-button--primary }
+[Launch challenge on Paged Again](https://pagedagain.com/incidents/permission-denied?utm_source=challenges&utm_medium=writeup&utm_campaign=config-keyerror){ .md-button .md-button--primary }
 
 </div>
 
