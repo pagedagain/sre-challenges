@@ -1,4 +1,4 @@
-# Paged Again Challenges
+# PagedAgain Challenges
 
 > A collection of deterministic, real-world production incidents.
 

@@ -1,4 +1,4 @@
-site_name: Paged Again Challenges
+site_name: PagedAgain Challenges
 site_description: Real-world SRE and Linux production incidents.
 site_url: https://challenges.pagedagain.com
 repo_url: https://github.com/pagedagain/sre-challenges
@@ -6,6 +6,9 @@ repo_name: pagedagain/sre-challenges
 theme:
   name: material
   custom_dir: overrides
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  font: false
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
